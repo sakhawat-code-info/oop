@@ -101,16 +101,20 @@
 
 
 
-function add (ar, b) {
-  if(ar.indexOf(b)){
-    ar.push(b);
- }
-return ar;
-}
+// function add (ar, b) {
+//   if(ar.indexOf(b)){
+//     ar.push(b);
+//  }
+// return ar;
+// }
 
-console.log(add([1, 2], 3));;
+// console.log(add([1, 2], 3));;
 
 
-
+for (var i = 0; i < 5; i++) {
+  setTimeout(function () {
+   console.log(i);
+  }, 100);
+}  
 
 
