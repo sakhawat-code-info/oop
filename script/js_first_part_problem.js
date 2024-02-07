@@ -92,30 +92,26 @@
 // Write a function to find the longest word in a given string.
 
 
-const str = "this is llllllllllllllllonnnnnnng sting";
+// const str = "I am learning Programming to become a programmer";
 
 
-
-
-
-function longword (str){
+// function longword (str){
     
-    const strArray = str.split(" ");
-    const strWordSize = [];
-    
-    for (let i = 0; i < strArray.length; i++) {
-        const element = strArray[i];
-        strWordSize.push(element.length)
-    }
+//     const strArray = str.split(" ");
+//     // const strWordSize = [];
+//     let bigWord = strArray[0];
+//     for (let i = 0; i < strArray.length; i++) {
+//         const element = strArray[i];
+//         if (bigWord.length < element.length) {
+//             bigWord = element
+//         }
+//         // strWordSize.push(element.length)
+//     }
 
-    const maxWordSize = Math.max(...strWordSize)
-    console.log(maxWordSize);
-}
+//     console.log(bigWord);
+// }
 
-
-longword(str);
-
-// console.log(element);
+// longword(str);
 
 
 
@@ -128,4 +124,19 @@ longword(str);
 
 // ----
 // ### Task-5: 
-// Generate a random number between 10 to 20.
+// // Generate a random number between 10 to 20.
+
+
+
+// function randamNumber() {
+//     console.log(Math.floor((Math.random() * 10) + 10)); 
+// }
+
+
+// randamNumber();
+
+
+
+
+
+

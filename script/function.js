@@ -50,25 +50,25 @@
 // Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
 
 
-const binary_string = '00110101010010100';
+// const binary_string = '00110101010010100';
 
-function count_zero (bny_str){
-    let count = 0;
-    for (let i = 0; i < bny_str.length; i++) {
-        const element = bny_str[i];
+// function count_zero (bny_str){
+//     let count = 0;
+//     for (let i = 0; i < bny_str.length; i++) {
+//         const element = bny_str[i];
         
-        // console.log(typeof element);
-        if (element === '0') {
-            count++;
-        }
+//         // console.log(typeof element);
+//         if (element === '0') {
+//             count++;
+//         }
 
-    }
-    return count;
-}
+//     }
+//     return count;
+// }
 
-let print = count_zero(binary_string);
+// let print = count_zero(binary_string);
 
-console.log(print);
+// console.log(print);
 
 
 
